@@ -8,7 +8,7 @@ export const dataCounter = [
   {
     id: 2,
     startNumber: 0,
-    endNumber: 230,
+    endNumber: 2300,
     text: "empleados",
   },
   {
@@ -16,5 +16,5 @@ export const dataCounter = [
     startNumber: 600,
     endNumber: 1800,
     text: "millones invertidos",
-  },
-];
+  }
+]

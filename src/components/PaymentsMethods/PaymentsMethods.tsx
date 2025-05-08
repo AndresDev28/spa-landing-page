@@ -15,10 +15,15 @@ export function PaymentsMethods() {
             <Swiper
               breakpoints={{
                 320: {
+                  slidesPerView: 4,
+                  spaceBetween: 15
+                },
+                768: {
                   slidesPerView: 8,
                   spaceBetween: 15
                 }
               }}
+              
               autoplay={{
                 delay: 1,
                 disableOnInteraction: false
